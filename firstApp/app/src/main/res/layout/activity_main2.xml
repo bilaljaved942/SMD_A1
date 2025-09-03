@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/time"
+        android:layout_margin="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:src="@drawable/battery"
+        android:layout_margin="4dp"
+        android:layout_alignParentEnd="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/main2">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="10dp"
+            backgroung
+            android:src="@drawable/back_icon"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Socially"
+            android:textColor="#898989"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
