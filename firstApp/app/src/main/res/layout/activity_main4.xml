@@ -12,8 +12,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.8"
         android:paddingTop="16dp"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp">
+        android:paddingStart="20dp">
 
         <ImageView
             android:id="@+id/timeIcon"
